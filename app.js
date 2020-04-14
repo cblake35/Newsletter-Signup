@@ -41,7 +41,7 @@ app.post("/", function(req, res) {
 
   var jsonData = JSON.stringify(data);
 
-  const url = "https://us19.api.mailchimp.com/3.0/lists/eac9ce666";
+  const url = "https://us19.api.mailchimp.com/3.0/lists/eac9ce6667";
 
   const options = {
     method: "POST",
@@ -68,8 +68,3 @@ app.post("/", function(req, res) {
 app.post("/failure", function(req, res) {
   res.redirect("/");
 });
-
-
-// a68ded2a6c834bf602c6050a4c25e941-us19
-
-// eac9ce6667
